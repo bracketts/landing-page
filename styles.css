@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  gap: 15px;
+}
+
+header ul {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px 0 50px;
+  gap: 16px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  padding: 10px;
+}
+
+.info h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.placeholder {
+  width: 50%;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder p {
+  margin: 75px  45px;
+  color: #e5e7eb;
+}
+
+.middle-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+a:visited {
+  columns: #e5e7eb;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px 18px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: none;
+  color: #f9faf8;
+}
